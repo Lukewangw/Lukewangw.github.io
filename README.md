@@ -6,6 +6,7 @@ Personal academic and engineering website at **https://lukewangw.github.io/**.
 
 - `index.html`: biography, research, projects, experience, and education.
 - `styles.css`: responsive layout and typography.
+- `LukeWang.pdf`: the resume linked from the introduction. Replace this file to update the resume.
 - `.nojekyll`: serves the plain static files directly on GitHub Pages.
 
 No build step or package installation is required. The website works without JavaScript.

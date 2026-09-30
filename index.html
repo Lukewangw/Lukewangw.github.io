@@ -82,9 +82,9 @@
             <div class="entry-meta"><span>Conversational AI</span></div>
             <div class="entry-body">
               <h3><a href="https://github.com/Lukewangw/PillarFortune">PillarFortune</a></h3>
-              <p>A conversational tarot application with personalized readings and follow-up dialogue. I built the React interface and Cloudflare backend, with session memory that keeps follow-ups grounded in the original question and cards.</p>
-              <p>Deterministic card selection is separate from model interpretation; structured output validation, bounded retries, and fallbacks handle invalid responses.</p>
-              <div class="entry-footer"><p class="technologies">React · TypeScript · Cloudflare Workers · Durable Objects</p><a class="project-link" href="https://github.com/Lukewangw/PillarFortune" aria-label="PillarFortune source code on GitHub">Code</a></div>
+              <p>A conversational tarot application with personalized readings and follow-up dialogue. A seeded, reproducible shuffle selects the cards and a language model only interprets them; Durable Object sessions keep follow-ups grounded in the original question, cards, and conversation.</p>
+              <p>Each model response is validated against a JSON Schema generated for its draw and checked for references to undrawn cards. Invalid output is repaired using the validator's feedback within a bounded number of retries, then replaced by a deterministic fallback. A question classifier I trained routes requests by topic and safety, and an evaluation harness with fault injection measures the pipeline's reliability.</p>
+              <div class="entry-footer"><p class="technologies">React · TypeScript · Workers AI · Durable Objects · scikit&#8209;learn</p><a class="project-link" href="https://lukewangw.github.io/PillarFortune/" aria-label="PillarFortune live demo">Demo</a><a class="project-link" href="https://github.com/Lukewangw/PillarFortune" aria-label="PillarFortune source code on GitHub">Code</a></div>
             </div>
           </article>
 

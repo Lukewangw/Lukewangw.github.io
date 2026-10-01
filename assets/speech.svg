@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" fill="none">
+  <rect width="360" height="220" rx="16" fill="#F1F6F9"/>
+  <g stroke="#DCE7EE" stroke-width="1"><path d="M24 64H336M24 110H336M24 156H336"/><path d="M80 36V184M146 36V184M212 36V184M278 36V184"/></g>
+  <path d="M24 79H48L53 70L59 90L65 51L71 109L77 38L83 117L89 51L95 101L101 65L107 85L113 77H133L140 68L147 91L154 58L161 104L168 44L175 117L182 66L189 96L196 73L203 82H225L232 69L239 93L246 61L253 108L260 48L267 109L274 64L281 92L288 72L295 81H336" stroke="#30668B" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M24 167C63 167 62 127 102 131S143 184 184 160S225 123 268 151S303 175 336 143" stroke="#688FA9" stroke-width="2.5"/>
+  <path d="M24 174C66 184 63 148 104 153S152 126 190 146S221 188 265 169S305 133 336 154" stroke="#ABBDC9" stroke-width="2"/>
+  <g fill="#30668B"><circle cx="102" cy="131" r="4"/><circle cx="184" cy="160" r="4"/><circle cx="268" cy="151" r="4"/></g>
+  <g fill="#526F82" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="19" letter-spacing="1"><text x="24" y="24">SOUND</text><text x="24" y="205">ARTICULATORY MOTION</text></g>
+</svg>

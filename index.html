@@ -50,7 +50,10 @@
           </div>
 
           <article class="entry research-entry">
-            <div class="entry-meta"><span>UC Berkeley · BAIR</span><span>2026–present</span></div>
+            <div class="entry-meta">
+              <span>UC Berkeley · BAIR</span><span>2026–present</span>
+              <img class="research-visual" src="assets/speech.svg" width="360" height="220" alt="Schematic of a speech waveform and articulatory motion trajectories" loading="lazy" decoding="async">
+            </div>
             <div class="entry-body">
               <h3>Interpretable speech generation &amp; articulatory control</h3>
               <p class="role">Research Assistant · Advised by Gopala Anumanchipalli</p>
@@ -61,7 +64,10 @@
           </article>
 
           <article class="entry research-entry">
-            <div class="entry-meta"><span>UCSF</span><span>2025–2026</span></div>
+            <div class="entry-meta">
+              <span>UCSF</span><span>2025–2026</span>
+              <img class="research-visual" src="assets/neural.svg" width="360" height="220" alt="Schematic of neural signals and a sequence of latent states" loading="lazy" decoding="async">
+            </div>
             <div class="entry-body">
               <h3>Neural dynamics across sleep and wakefulness</h3>
               <p class="role">Research Assistant · Advised by Joline Fan</p>
@@ -78,8 +84,14 @@
             <a class="section-note" href="https://github.com/Lukewangw?tab=repositories">GitHub repositories</a>
           </div>
 
-          <article class="entry project-entry">
-            <div class="entry-meta"><span>GPU performance</span></div>
+          <article class="entry project-entry featured-project">
+            <div class="entry-meta">
+              <span>GPU performance</span>
+              <a class="project-visual" href="https://github.com/Lukewangw/gpu" aria-label="Explore TorchScope on GitHub">
+                <img src="assets/torchscope.svg" width="480" height="320" alt="Illustration of a GPU workload connected to an execution trace" loading="lazy" decoding="async">
+                <span class="visual-caption">Explore the code <span aria-hidden="true">↗</span></span>
+              </a>
+            </div>
             <div class="entry-body">
               <h3><a href="https://github.com/Lukewangw/gpu">TorchScope</a></h3>
               <p>A benchmarking and profiling platform for PyTorch training and LLM inference. I built configurable experiments across PyTorch eager, torch.compile, vLLM serving, and distributed training to compare latency, throughput, and memory use.</p>
@@ -88,8 +100,14 @@
             </div>
           </article>
 
-          <article class="entry project-entry">
-            <div class="entry-meta"><span>Conversational AI</span></div>
+          <article class="entry project-entry featured-project">
+            <div class="entry-meta">
+              <span>Conversational AI</span>
+              <a class="project-visual fortune-visual" href="https://lukewangw.github.io/PillarFortune/" aria-label="Try the PillarFortune live demo">
+                <img src="assets/pillarfortune.svg" width="480" height="320" alt="Illustration of three tarot cards with moon, star, and sun motifs" loading="lazy" decoding="async">
+                <span class="visual-caption">Try a reading <span aria-hidden="true">↗</span></span>
+              </a>
+            </div>
             <div class="entry-body">
               <h3><a href="https://lukewangw.github.io/PillarFortune/">PillarFortune</a></h3>
               <p>A conversational tarot application with reproducible card draws and a trained question router. I built a shared TypeScript pipeline that validates model responses against a schema for each draw, repairs invalid outputs with bounded retries, and provides a deterministic fallback.</p>

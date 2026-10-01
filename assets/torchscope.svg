@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" fill="none">
+  <rect width="480" height="320" rx="16" fill="#EDF4FA"/>
+  <g stroke="#DCE7F0"><path d="M32 72H448M32 120H448M32 168H448M32 216H448M32 264H448"/><path d="M80 54V276M144 54V276M208 54V276M272 54V276M336 54V276M400 54V276"/></g>
+  <g stroke="#7192AB" stroke-width="2"><path d="M76 128H91M76 144H91M76 160H91M76 176H91M171 128H186M171 144H186M171 160H186M171 176H186M106 98V112M122 98V112M138 98V112M154 98V112M106 192V206M122 192V206M138 192V206M154 192V206"/></g>
+  <rect x="90" y="112" width="82" height="80" rx="11" fill="#FFF" stroke="#537D9D" stroke-width="2"/>
+  <rect x="103" y="125" width="56" height="54" rx="6" fill="#DCEAF5"/>
+  <g fill="#668DAA"><rect x="112" y="134" width="9" height="9" rx="2"/><rect x="127" y="134" width="9" height="9" rx="2"/><rect x="142" y="134" width="9" height="9" rx="2"/><rect x="112" y="149" width="9" height="9" rx="2"/><rect x="127" y="149" width="9" height="9" rx="2"/><rect x="142" y="149" width="9" height="9" rx="2"/><rect x="112" y="164" width="9" height="6" rx="2"/><rect x="127" y="164" width="9" height="6" rx="2"/><rect x="142" y="164" width="9" height="6" rx="2"/></g>
+  <path d="M190 151H237M229 145L237 151L229 157" stroke="#7192AB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="254" y="90" width="158" height="132" rx="11" fill="#FFF" stroke="#B9CEDD" stroke-width="1.5"/>
+  <path d="M254 116H412" stroke="#E0E9F0"/><circle cx="268" cy="103" r="3" fill="#AAC2D4"/><circle cx="279" cy="103" r="3" fill="#C3D4E1"/><circle cx="290" cy="103" r="3" fill="#D8E3EC"/>
+  <g stroke="#DCE7EE" stroke-width="1"><path d="M268 142H397M268 166H397M268 190H397"/></g>
+  <rect x="270" y="132" width="32" height="12" rx="3" fill="#A7C3D8"/><rect x="307" y="132" width="42" height="12" rx="3" fill="#487FAD"/><rect x="354" y="132" width="30" height="12" rx="3" fill="#A7C3D8"/>
+  <rect x="286" y="156" width="39" height="12" rx="3" fill="#A7C3D8"/><rect x="330" y="156" width="39" height="12" rx="3" fill="#487FAD"/><rect x="374" y="156" width="23" height="12" rx="3" fill="#A7C3D8"/>
+  <rect x="302" y="180" width="26" height="12" rx="3" fill="#A7C3D8"/><rect x="333" y="180" width="34" height="12" rx="3" fill="#487FAD"/>
+  <g fill="#43637C" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif"><text x="32" y="37" font-size="20" letter-spacing="2">TORCHSCOPE</text><text x="132" y="236" font-size="20" text-anchor="middle">Workload</text><text x="333" y="247" font-size="20" text-anchor="middle">Execution trace</text><text x="32" y="291" font-size="17" letter-spacing="1.3">PROFILE · COMPARE · DIAGNOSE</text></g>
+</svg>

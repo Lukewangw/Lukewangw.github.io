@@ -25,4 +25,4 @@ GitHub Pages publishes the `main` branch from `/ (root)` in the `Lukewangw/Lukew
 
 ## Content
 
-The initial version summarizes the owner's existing resumes and project descriptions. Research entries describe work in progress and make no publication or benchmark claims. Only public project repositories are linked. Review role dates and wording when updating the page, and update the footer's revision month.
+The initial version summarizes the owner's existing resumes and project descriptions. Research entries describe work in progress and make no publication or benchmark claims. Project links point to the owner's chosen demos and repositories; private repositories require GitHub access. Review role dates and wording when updating the page, and update the footer's revision month.

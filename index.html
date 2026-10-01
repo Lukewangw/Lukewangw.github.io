@@ -32,9 +32,9 @@
           <h1 id="name">Luke Wang <span>(Luyuan Wang)</span></h1>
           <p class="affiliation">Computer Science · University of California, Berkeley</p>
           <div class="bio">
-            <p>I’m a Computer Science undergraduate at <a href="https://www.berkeley.edu/">UC Berkeley</a>, interested in interpretable machine learning and the engineering that makes AI systems reliable.</p>
+            <p>I’m a Computer Science undergraduate at <a href="https://www.berkeley.edu/">UC Berkeley</a>, interested in interpretable machine learning and the engineering that makes reliable AI systems.</p>
             <p>I work with the <a href="https://bair.berkeley.edu/">Berkeley AI Research</a> Speech Group, advised by <a href="https://people.eecs.berkeley.edu/~gopala/">Gopala Anumanchipalli</a>, on speech models grounded in how people produce sound. My research also includes modeling neural dynamics from intracranial EEG at UCSF with Joline Fan.</p>
-            <p>Alongside research, I build AI applications and data systems—from agents for workflow migration to conversational products and distributed task scheduling.</p>
+            <p>Alongside research, I build AI applications and data systems, from agents for workflow migration to conversational products and distributed task scheduling. I am always interested in learning how current models work and why they work.</p>
           </div>
           <ul class="contact-links" aria-label="Contact and profiles">
             <li><a href="mailto:luyuanwang@berkeley.edu">Email</a></li>
@@ -81,10 +81,10 @@
           <article class="entry project-entry">
             <div class="entry-meta"><span>Conversational AI</span></div>
             <div class="entry-body">
-              <h3><a href="https://github.com/Lukewangw/PillarFortune">PillarFortune</a></h3>
-              <p>A conversational tarot application with personalized readings and follow-up dialogue. I built the React interface and Cloudflare backend, with session memory that keeps follow-ups grounded in the original question and cards.</p>
-              <p>Deterministic card selection is separate from model interpretation; structured output validation, bounded retries, and fallbacks handle invalid responses.</p>
-              <div class="entry-footer"><p class="technologies">React · TypeScript · Cloudflare Workers · Durable Objects</p><a class="project-link" href="https://github.com/Lukewangw/PillarFortune" aria-label="PillarFortune source code on GitHub">Code</a></div>
+              <h3><a href="https://lukewangw.github.io/PillarFortune/">PillarFortune</a></h3>
+              <p>A conversational tarot application with reproducible card draws and a trained question router. I built a shared TypeScript pipeline that validates model responses against a schema for each draw, repairs invalid outputs with bounded retries, and provides a deterministic fallback.</p>
+              <p>The Cloudflare backend supports model inference, conversation memory, and persistent readings. An evaluation harness tests the same pipeline with fault injection; the browser demo runs offline and simulated engines and lets visitors inspect each step.</p>
+              <div class="entry-footer"><p class="technologies">React · TypeScript · Workers AI · Durable Objects · D1 · scikit-learn</p><a class="project-link" href="https://lukewangw.github.io/PillarFortune/" aria-label="Open PillarFortune live demo">Live demo</a><a class="project-link" href="https://lukewangw.github.io/PillarFortune/#/lab" aria-label="Explore how PillarFortune works">How it works</a><a class="project-link" href="https://github.com/Lukewangw/PillarFortune/tree/8a91184effc7c064cbeddc97501d446e3e5b01f5" aria-label="PillarFortune demo source code on GitHub">GitHub</a></div>
             </div>
           </article>
 

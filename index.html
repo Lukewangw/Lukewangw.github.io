@@ -12,7 +12,7 @@
     <meta property="og:url" content="https://lukewangw.github.io/">
     <link rel="canonical" href="https://lukewangw.github.io/">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='10' fill='%231c527d'/%3E%3Cpath d='M14 12v24h21v-5H19V12z' fill='white'/%3E%3C/svg%3E">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=project-media-2">
     <title>Luke Wang · UC Berkeley</title>
   </head>
   <body>
@@ -52,7 +52,6 @@
           <article class="entry research-entry">
             <div class="entry-meta">
               <span>UC Berkeley · BAIR</span><span>2026–present</span>
-              <img class="research-visual" src="assets/speech.svg" width="360" height="220" alt="Schematic of a speech waveform and articulatory motion trajectories" loading="lazy" decoding="async">
             </div>
             <div class="entry-body">
               <h3>Interpretable speech generation &amp; articulatory control</h3>
@@ -66,7 +65,6 @@
           <article class="entry research-entry">
             <div class="entry-meta">
               <span>UCSF</span><span>2025–2026</span>
-              <img class="research-visual" src="assets/neural.svg" width="360" height="220" alt="Schematic of neural signals and a sequence of latent states" loading="lazy" decoding="async">
             </div>
             <div class="entry-body">
               <h3>Neural dynamics across sleep and wakefulness</h3>
@@ -87,10 +85,12 @@
           <article class="entry project-entry featured-project">
             <div class="entry-meta">
               <span>GPU performance</span>
-              <a class="project-visual" href="https://github.com/Lukewangw/gpu" aria-label="Explore TorchScope on GitHub">
-                <img src="assets/torchscope.svg" width="480" height="320" alt="Illustration of a GPU workload connected to an execution trace" loading="lazy" decoding="async">
-                <span class="visual-caption">Explore the code <span aria-hidden="true">↗</span></span>
-              </a>
+              <figure class="project-figure">
+                <a class="project-visual" href="https://github.com/Lukewangw/gpu" aria-label="Explore TorchScope on GitHub">
+                  <img src="assets/torchscope-throughput.svg" width="400" height="270" alt="Measured CPU throughput: 42.8, 104.4, and 181.7 output tokens per second at batch sizes 1, 4, and 16" loading="lazy" decoding="async">
+                </a>
+                <figcaption>CPU reference · 4 vCPUs<br>Median of 3 runs</figcaption>
+              </figure>
             </div>
             <div class="entry-body">
               <h3><a href="https://github.com/Lukewangw/gpu">TorchScope</a></h3>
@@ -103,10 +103,12 @@
           <article class="entry project-entry featured-project">
             <div class="entry-meta">
               <span>Conversational AI</span>
-              <a class="project-visual fortune-visual" href="https://lukewangw.github.io/PillarFortune/" aria-label="Try the PillarFortune live demo">
-                <img src="assets/pillarfortune.svg" width="480" height="320" alt="Illustration of three tarot cards with moon, star, and sun motifs" loading="lazy" decoding="async">
-                <span class="visual-caption">Try a reading <span aria-hidden="true">↗</span></span>
-              </a>
+              <figure class="project-figure">
+                <a class="project-visual app-preview" href="https://lukewangw.github.io/PillarFortune/" aria-label="Try the PillarFortune live demo">
+                  <img src="assets/pillarfortune-app.jpg" width="672" height="520" alt="PillarFortune's actual interface showing the Past, Present, and Future cards after a draw" loading="lazy" decoding="async">
+                </a>
+                <figcaption>Application screenshot · offline demo</figcaption>
+              </figure>
             </div>
             <div class="entry-body">
               <h3><a href="https://lukewangw.github.io/PillarFortune/">PillarFortune</a></h3>

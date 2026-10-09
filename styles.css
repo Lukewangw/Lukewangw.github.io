@@ -36,6 +36,10 @@ h1 span { font-size: 1.08rem; letter-spacing: 0; font-weight: 400; color: var(--
 .affiliation { color: var(--muted); font-size: .9375rem; margin-bottom: 1.65rem; }
 .bio { max-width: 790px; }
 .bio p { margin-bottom: .9rem; }
+.bio .about-subsection { margin-top: 1.65rem; }
+.bio .about-subsection h2 { font-size: 1.125rem; letter-spacing: -.015em; margin-bottom: .7rem; }
+.bio .research-topic h3 { font-size: .95rem; margin-bottom: .35rem; }
+.bio .research-topic + .research-topic { margin-top: 1.15rem; }
 .contact-links { display: flex; gap: 0; list-style: none; padding: 0; margin: 1.15rem 0 0; font-size: .9375rem; }
 .contact-links li + li::before { content: "/"; color: #a6aeb6; margin-inline: .9rem; }
 .section { padding-block: 2rem .4rem; border-top: 1px solid var(--line); }
